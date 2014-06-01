@@ -2223,14 +2223,14 @@ Indirizzo: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>Specifica il file di configurazione (di default: coinlabcoincoin.conf)
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>Specifica il file di configurazione (di default: coinlabcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>Specifica il file pid (default: coinlabcoincoind.pid)
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>Specifica il file pid (default: coinlabcoind.pid)
 </translation>
     </message>
     <message>

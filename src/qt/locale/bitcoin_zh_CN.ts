@@ -2222,14 +2222,14 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>指定配置文件 (默认为 coinlabcoincoin.conf)
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>指定配置文件 (默认为 coinlabcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>指定 pid 文件 (默认为 coinlabcoincoind.pid)
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>指定 pid 文件 (默认为 coinlabcoind.pid)
 </translation>
     </message>
     <message>

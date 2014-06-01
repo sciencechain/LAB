@@ -2218,12 +2218,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>Указать конфигурационный файл (по умолчанию: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>Указать конфигурационный файл (по умолчанию: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
         <translation>Задать pid-файл (по умолчанию: coinlabcoin.pid)</translation>
     </message>
     <message>

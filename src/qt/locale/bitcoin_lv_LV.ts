@@ -2212,13 +2212,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: coinlabcoincoind.pid)</translation>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: coinlabcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

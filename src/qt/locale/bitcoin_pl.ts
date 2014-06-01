@@ -2217,12 +2217,12 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>Wskaż plik konfiguracyjny (domyślnie: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>Wskaż plik konfiguracyjny (domyślnie: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
         <translation>Wskaż plik pid (domyślnie: coinlabcoin.pid)</translation>
     </message>
     <message>

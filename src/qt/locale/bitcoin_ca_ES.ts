@@ -2208,13 +2208,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>Especificat arxiu de configuració (per defecte: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: coinlabcoincoind.pid)</translation>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: coinlabcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

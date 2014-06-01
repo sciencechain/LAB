@@ -2216,13 +2216,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>ציין קובץ הגדרות (ברירת מחדל: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>ציין קובץ הגדרות (ברירת מחדל: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>ציין קובץ pid (ברירת מחדל: coinlabcoincoind.pid)</translation>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>ציין קובץ pid (ברירת מחדל: coinlabcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

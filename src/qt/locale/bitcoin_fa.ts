@@ -2215,13 +2215,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>(: coinlabcoincoin.confپیش فرض: )فایل تنظیمی خاص </translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>(: coinlabcoin.confپیش فرض: )فایل تنظیمی خاص </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>(coinlabcoincoind.pidپیش فرض : ) فایل پید خاص</translation>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>(coinlabcoind.pidپیش فرض : ) فایل پید خاص</translation>
     </message>
     <message>
         <location line="-1"/>

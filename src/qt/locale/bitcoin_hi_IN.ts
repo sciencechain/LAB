@@ -2213,12 +2213,12 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>configuraion की फाइल का विवरण दें (default: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>configuraion की फाइल का विवरण दें (default: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
         <translation>pid फाइल का विवरण दें (default: coinlabcoin.pid)</translation>
     </message>
     <message>

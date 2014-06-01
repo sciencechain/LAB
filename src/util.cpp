@@ -982,7 +982,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "coinlabcoincoin";
+    const char* pszModule = "coinlabcoin";
 #endif
     if (pex)
         return strprintf(
@@ -1021,7 +1021,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Windows < Vista: C:\Documents and Settings\Username\Application Data\Coinlabcoin
     // Windows >= Vista: C:\Users\Username\AppData\Roaming\Coinlabcoin
     // Mac: ~/Library/Application Support/Coinlabcoin
-    // Unix: ~/.coinlabcoincoin
+    // Unix: ~/.coinlabcoin
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Coinlabcoin";
@@ -1080,7 +1080,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "coinlabcoincoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "coinlabcoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1090,7 +1090,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No coinlabcoincoin.conf file is OK
+        return; // No coinlabcoin.conf file is OK
 
     // clear path cache after loading config file
     fCachedPath[0] = fCachedPath[1] = false;
@@ -1100,7 +1100,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override coinlabcoincoin.conf
+        // Don't overwrite existing settings so command line settings override coinlabcoin.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -1114,7 +1114,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "coinlabcoincoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "coinlabcoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

@@ -2222,14 +2222,14 @@ Cím: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>Konfigurációs fájl (alapértelmezett: coinlabcoincoin.conf)
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>Konfigurációs fájl (alapértelmezett: coinlabcoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>pid-fájl (alapértelmezett: coinlabcoincoind.pid)
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>pid-fájl (alapértelmezett: coinlabcoind.pid)
 </translation>
     </message>
     <message>

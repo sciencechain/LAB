@@ -2212,12 +2212,12 @@ Adresa:%4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>Odredi konfiguracijsku datoteku (ugrađeni izbor: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
         <translation>Odredi proces ID datoteku (ugrađeni izbor: coinlabcoin.pid)</translation>
     </message>
     <message>

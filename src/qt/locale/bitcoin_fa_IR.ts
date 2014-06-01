@@ -2211,13 +2211,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoincoin.conf)</source>
-        <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: coinlabcoincoin.conf)</translation>
+        <source>Specify configuration file (default: coinlabcoin.conf)</source>
+        <translation>فایل پیکربندیِ را مشخص کنید (پیش فرض: coinlabcoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoincoind.pid)</source>
-        <translation>فایل pid  را مشخص کنید (پیش فرض: coinlabcoincoind.pid)</translation>
+        <source>Specify pid file (default: coinlabcoind.pid)</source>
+        <translation>فایل pid  را مشخص کنید (پیش فرض: coinlabcoind.pid)</translation>
     </message>
     <message>
         <location line="-1"/>

@@ -4640,7 +4640,7 @@ void static BitcoinMiner(CWallet *pwallet)
 {
     printf("CoinlabcoinMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("coinlabcoincoin-miner");
+    RenameThread("coinlabcoin-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

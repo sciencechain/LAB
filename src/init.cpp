@@ -167,7 +167,7 @@ bool AppInit(int argc, char* argv[])
         //
         // Parameters
         //
-        // If Qt is used, parameters/coinlabcoincoin.conf are parsed in qt/bitcoin.cpp's main()
+        // If Qt is used, parameters/coinlabcoin.conf are parsed in qt/bitcoin.cpp's main()
         ParseParameters(argc, argv);
         if (!boost::filesystem::is_directory(GetDataDir(false)))
         {
@@ -178,13 +178,13 @@ bool AppInit(int argc, char* argv[])
 
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
-            // First part of help message is specific to coinlabcoincoind / RPC client
+            // First part of help message is specific to coinlabcoind / RPC client
             std::string strUsage = _("Coinlabcoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  coinlabcoincoind [options]                     " + "\n" +
-                  "  coinlabcoincoind [options] <command> [params]  " + _("Send command to -server or coinlabcoincoind") + "\n" +
-                  "  coinlabcoincoind [options] help                " + _("List commands") + "\n" +
-                  "  coinlabcoincoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  coinlabcoind [options]                     " + "\n" +
+                  "  coinlabcoind [options] <command> [params]  " + _("Send command to -server or coinlabcoind") + "\n" +
+                  "  coinlabcoind [options] help                " + _("List commands") + "\n" +
+                  "  coinlabcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -194,7 +194,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "coinlabcoincoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "coinlabcoin:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -256,7 +256,7 @@ int main(int argc, char* argv[])
 {
     bool fRet = false;
 
-    // Connect coinlabcoincoind signal handlers
+    // Connect coinlabcoind signal handlers
     noui_connect();
 
     fRet = AppInit(argc, argv);
@@ -297,8 +297,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n" +
         "  -?                     " + _("This help message") + "\n" +
-        "  -conf=<file>           " + _("Specify configuration file (default: coinlabcoincoin.conf)") + "\n" +
-        "  -pid=<file>            " + _("Specify pid file (default: coinlabcoincoind.pid)") + "\n" +
+        "  -conf=<file>           " + _("Specify configuration file (default: coinlabcoin.conf)") + "\n" +
+        "  -pid=<file>            " + _("Specify pid file (default: coinlabcoind.pid)") + "\n" +
         "  -gen                   " + _("Generate coins (default: 0)") + "\n" +
         "  -datadir=<dir>         " + _("Specify data directory") + "\n" +
         "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 25)") + "\n" +

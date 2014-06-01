@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = coinlabcoincoin-qt
+TARGET = coinlabcoin-qt
 macx:TARGET = "Coinlabcoin-Qt"
 VERSION = 0.8.3
 INCLUDEPATH += src src/json src/qt

@@ -537,7 +537,7 @@ inline uint32_t ByteReverse(uint32_t value)
 //    threadGroup.create_thread(boost::bind(&LoopForever<boost::function<void()> >, "nothing", f, milliseconds));
 template <typename Callable> void LoopForever(const char* name,  Callable func, int64 msecs)
 {
-    std::string s = strprintf("coinlabcoincoin-%s", name);
+    std::string s = strprintf("coinlabcoin-%s", name);
     RenameThread(s.c_str());
     printf("%s thread start\n", name);
     try
@@ -563,7 +563,7 @@ template <typename Callable> void LoopForever(const char* name,  Callable func, 
 // .. and a wrapper that just calls func once
 template <typename Callable> void TraceThread(const char* name,  Callable func)
 {
-    std::string s = strprintf("coinlabcoincoin-%s", name);
+    std::string s = strprintf("coinlabcoin-%s", name);
     RenameThread(s.c_str());
     try
     {
