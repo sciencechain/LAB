@@ -1039,7 +1039,7 @@ boost::filesystem::path GetDefaultDataDir()
     return pathRet / "Coinlabcoin";
 #else
     // Unix
-    return pathRet / ".coinlabcoincoin";
+    return pathRet / ".coinlabcoin";
 #endif
 #endif
 }

@@ -1,6 +1,6 @@
 #Coinlabcoin [LAB]
 
-*A Redeemable Demo Coin from Coinlab.info. This coin acts as a feature complete CPU mined demonstration coin. LAB can be mined and used at Coinlab.info for purchasing coins and services! *
+A Redeemable Demo Coin from Coinlab.info. This coin acts as a feature complete CPU mined demonstration coin. LAB can be mined and used at Coinlab.info for purchasing coins and services!
 
 ##Technical Specs:
 
