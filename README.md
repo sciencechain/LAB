@@ -10,7 +10,7 @@ NO (0%) Premine
 
 1,000,000 Total Coins
 
-50 Coins Per Block, Halving at 100,000 Block Intervals
+50 Coins Per Block, Halving at 10,000 Block Intervals
 
 60 Second Block Targets
 
