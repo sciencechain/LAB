@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Coinlabcoin</source>
-        <translation>Over Coinlabcoin</translation>
+        <source>About Coinworkscoin</source>
+        <translation>Over Coinworkscoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Coinlabcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Coinlabcoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Coinworkscoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Coinworkscoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>The Coinlabcoin Developers</source>
-        <translation>De Coinlabcoin-ontwikkelaars</translation>
+        <source>The Coinworkscoin Developers</source>
+        <translation>De Coinworkscoin-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -67,8 +67,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Coinlabcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn uw Coinlabcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
+        <source>These are your Coinworkscoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn uw Coinworkscoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -82,8 +82,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Coinlabcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Coinlabcoinadres bezit</translation>
+        <source>Sign a message to prove you own a Coinworkscoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Coinworkscoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -107,8 +107,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Coinlabcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Coinlabcoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify a message to ensure it was signed with a specified Coinworkscoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Coinworkscoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -122,8 +122,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Coinlabcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw Coinlabcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw coinlabcoins verzendt.</translation>
+        <source>These are your Coinworkscoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Coinworkscoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw coinworkscoins verzendt.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -248,8 +248,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Coinlabcoin&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW Coinlabcoin VERLIEZEN&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR Coinworkscoin&lt;/b&gt;!</source>
+        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW Coinworkscoin VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Coinlabcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coinlabcoins from being stolen by malware infecting your computer.</source>
-        <translation>Coinlabcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw coinlabcoins stelen.</translation>
+        <source>Coinworkscoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coinworkscoins from being stolen by malware infecting your computer.</source>
+        <translation>Coinworkscoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw coinworkscoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Coinlabcoin</source>
-        <translation>Laat informatie zien over Coinlabcoin</translation>
+        <source>Show information about Coinworkscoin</source>
+        <translation>Laat informatie zien over Coinworkscoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Coinlabcoin address</source>
-        <translation>Verstuur munten naar een Coinlabcoinadres</translation>
+        <source>Send coins to a Coinworkscoin address</source>
+        <translation>Verstuur munten naar een Coinworkscoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Coinlabcoin</source>
-        <translation>Wijzig instellingen van Coinlabcoin</translation>
+        <source>Modify configuration options for Coinworkscoin</source>
+        <translation>Wijzig instellingen van Coinworkscoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Coinlabcoin</source>
-        <translation>Coinlabcoin</translation>
+        <source>Coinworkscoin</source>
+        <translation>Coinworkscoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Coinlabcoin</source>
-        <translation>&amp;Over Coinlabcoin</translation>
+        <source>&amp;About Coinworkscoin</source>
+        <translation>&amp;Over Coinworkscoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Coinlabcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw Coinlabcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <source>Sign messages with your Coinworkscoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Coinworkscoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Coinlabcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Coinlabcoinadressen</translation>
+        <source>Verify messages to ensure they were signed with specified Coinworkscoin addresses</source>
+        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Coinworkscoinadressen</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -536,13 +536,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>Coinlabcoin client</source>
-        <translation>Coinlabcoin client</translation>
+        <source>Coinworkscoin client</source>
+        <translation>Coinworkscoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Coinlabcoin network</source>
-        <translation><numerusform>%n actieve connectie naar Coinlabcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Coinlabcoinnetwerk</numerusform></translation>
+        <source>%n active connection(s) to Coinworkscoin network</source>
+        <translation><numerusform>%n actieve connectie naar Coinworkscoinnetwerk</numerusform><numerusform>%n actieve connecties naar Coinworkscoinnetwerk</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -607,7 +607,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+70"/>
         <source>This transaction is over the size limit. You can still send it for a fee of %1, which goes to the nodes that process your transaction and helps to support the network. Do you want to pay the fee?</source>
-        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Coinlabcoinnetwerk. Wilt u de transactiekosten betalen?</translation>
+        <translation>Deze transactie overschrijdt de groottelimiet. Om de transactie alsnog te versturen kunt u transactiekosten betalen van %1. Deze transactiekosten gaan naar de nodes die uw transactie verwerken en het helpt op deze manier bij het ondersteunen van het Coinworkscoinnetwerk. Wilt u de transactiekosten betalen?</translation>
     </message>
     <message>
         <location line="-140"/>
@@ -656,8 +656,8 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Coinlabcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Coinlabcoinadres of misvormde URI-parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Coinworkscoin address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Coinworkscoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Coinlabcoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Coinlabcoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. Coinworkscoin can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. Coinworkscoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -737,8 +737,8 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Coinlabcoin address.</source>
-        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Coinlabcoinadres</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Coinworkscoin address.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Coinworkscoinadres</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Coinlabcoin-Qt</source>
-        <translation>Coinlabcoin-Qt</translation>
+        <source>Coinworkscoin-Qt</source>
+        <translation>Coinworkscoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Coinlabcoin after logging in to the system.</source>
-        <translation>Start Coinlabcoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Coinworkscoin after logging in to the system.</source>
+        <translation>Start Coinworkscoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Coinlabcoin on system login</source>
-        <translation>Start &amp;Coinlabcoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start Coinworkscoin on system login</source>
+        <translation>Start &amp;Coinworkscoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Coinlabcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Coinlabcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Coinworkscoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Coinworkscoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Coinlabcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Coinlabcoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the Coinworkscoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het Coinworkscoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Coinlabcoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Coinlabcoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Coinworkscoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Coinworkscoin herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,8 +944,8 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Coinlabcoin addresses in the transaction list or not.</source>
-        <translation>Of Coinlabcoinadressen getoond worden in de transactielijst</translation>
+        <source>Whether to show Coinworkscoin addresses in the transaction list or not.</source>
+        <translation>Of Coinworkscoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Coinlabcoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Coinlabcoin.</translation>
+        <source>This setting will take effect after restarting Coinworkscoin.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van Coinworkscoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,8 +1015,8 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Coinlabcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Coinlabcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Coinworkscoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Coinworkscoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start coinlabcoin: click-to-pay handler</source>
-        <translation>Kan coinlabcoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start coinworkscoin: click-to-pay handler</source>
+        <translation>Kan coinworkscoin niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Coinlabcoin-Qt help message to get a list with possible Coinlabcoin command-line options.</source>
-        <translation>Toon het CoinlabcoinQt-hulpbericht voor een lijst met mogelijke Coinlabcoin commandoregel-opties.</translation>
+        <source>Show the Coinworkscoin-Qt help message to get a list with possible Coinworkscoin command-line options.</source>
+        <translation>Toon het CoinworkscoinQt-hulpbericht voor een lijst met mogelijke Coinworkscoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Coinlabcoin - Debug window</source>
-        <translation>Coinlabcoin-debugscherm</translation>
+        <source>Coinworkscoin - Debug window</source>
+        <translation>Coinworkscoin-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Coinlabcoin Core</source>
-        <translation>Coinlabcoin Kern</translation>
+        <source>Coinworkscoin Core</source>
+        <translation>Coinworkscoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,8 +1254,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Coinlabcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Coinlabcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
+        <source>Open the Coinworkscoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Coinworkscoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Coinlabcoin RPC console.</source>
-        <translation>Welkom bij de Coinlabcoin RPC-console.</translation>
+        <source>Welcome to the Coinworkscoin RPC console.</source>
+        <translation>Welkom bij de Coinworkscoin RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,8 +1448,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Coinlabcoin address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
-        <translation>Vul een Coinlabcoinadres in (bijv. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
+        <source>Enter a Coinworkscoin address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
+        <translation>Vul een Coinworkscoinadres in (bijv. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
     </message>
 </context>
 <context>
@@ -1513,8 +1513,8 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Coinlabcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Coinlabcoinadres bezit</translation>
+        <source>Sign the message to prove you own this Coinworkscoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Coinworkscoinadres bezit</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1549,8 +1549,8 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Coinlabcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Coinlabcoinadres het bericht heeft ondertekend.</translation>
+        <source>Verify the message to ensure it was signed with the specified Coinworkscoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Coinworkscoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,8 +1565,8 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Coinlabcoin address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
-        <translation>Vul een Coinlabcoinadres in (bijv. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
+        <source>Enter a Coinworkscoin address (e.g. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</source>
+        <translation>Vul een Coinworkscoinadres in (bijv. Qi1NooNjQySQLDJ643HWfZZ7UN2EmLEvix)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Coinlabcoin signature</source>
-        <translation>Voer Coinlabcoin-handtekening in</translation>
+        <source>Enter Coinworkscoin signature</source>
+        <translation>Voer Coinworkscoin-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Coinlabcoin Developers</source>
-        <translation>De Coinlabcoin-ontwikkelaars</translation>
+        <source>The Coinworkscoin Developers</source>
+        <translation>De Coinworkscoin-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2184,11 +2184,11 @@ Adres: %4
     </message>
 </context>
 <context>
-    <name>coinlabcoin-core</name>
+    <name>coinworkscoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Coinlabcoin version</source>
-        <translation>Coinlabcoinversie</translation>
+        <source>Coinworkscoin version</source>
+        <translation>Coinworkscoinversie</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2197,8 +2197,8 @@ Adres: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or coinlabcoind</source>
-        <translation>Stuur commando naar -server of coinlabcoind</translation>
+        <source>Send command to -server or coinworkscoind</source>
+        <translation>Stuur commando naar -server of coinworkscoind</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2217,14 +2217,14 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: coinlabcoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: coinlabcoin.conf)
+        <source>Specify configuration file (default: coinworkscoin.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: coinworkscoin.conf)
 </translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: coinlabcoind.pid)</source>
-        <translation>Specificeer pid-bestand (standaard: coinlabcoind.pid)
+        <source>Specify pid file (default: coinworkscoind.pid)</source>
+        <translation>Specificeer pid-bestand (standaard: coinworkscoind.pid)
 </translation>
     </message>
     <message>
@@ -2302,23 +2302,23 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=coinlabcoinrpc
+rpcuser=coinworkscoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Coinlabcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Coinworkscoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
-rpcuser=coinlabcoinrpc
+rpcuser=coinworkscoinrpc
 rpcpassword=%s
 (u hoeft dit wachtwoord niet te onthouden)
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;Coinlabcoin Alert&quot; admin@foo.com</translation>
+for example: alertnotify=echo %%s | mail -s &quot;Coinworkscoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,8 +2332,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Coinlabcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Coinlabcoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Coinlabcoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. Coinworkscoin is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. Coinworkscoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Coinlabcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Coinlabcoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Coinlabcoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Coinworkscoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Coinworkscoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Coinlabcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Coinlabcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Coinlabcoin wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the Coinworkscoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de Coinworkscoin wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Coinlabcoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Coinlabcoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Coinlabcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Coinworkscoin</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Coinworkscoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Coinlabcoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Coinlabcoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Coinworkscoin to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Coinworkscoin om te voltooien</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Coinlabcoin Alert&quot; admin@
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Coinlabcoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Coinlabcoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. Coinworkscoin is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. Coinworkscoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+64"/>

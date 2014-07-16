@@ -153,7 +153,7 @@ OBJS= \
 	
 
 
-all: coinlabcoind
+all: coinworkscoind
 
 test check: test_coinlabcoin FORCE
 	./test_coinlabcoin
@@ -191,7 +191,7 @@ obj/%.o: %.c
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-coinlabcoind: $(OBJS:obj/%=obj/%)
+coinworkscoind: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -207,7 +207,7 @@ test_coinlabcoin: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(LINK) $(xCXXFLAGS) -o $@ $(LIBPATHS) $^ $(TESTLIBS) $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f coinlabcoind test_coinlabcoin
+	-rm -f coinworkscoind test_coinlabcoin
 	-rm -f obj/*.o
 	-rm -f obj-test/*.o
 	-rm -f obj/*.P

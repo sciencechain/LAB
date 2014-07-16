@@ -100,7 +100,7 @@ static void InitMessage(const std::string &message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("coinlabcoin-core", psz).toStdString();
+    return QCoreApplication::translate("coinworkscoin-core", psz).toStdString();
 }
 
 /* Handle runaway exceptions. Shows a message box with the problem and quits the program.
@@ -108,7 +108,7 @@ static std::string Translate(const char* psz)
 static void handleRunawayException(std::exception *e)
 {
     PrintExceptionContinue(e, "Runaway exception");
-    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Coinlabcoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
+    QMessageBox::critical(0, "Runaway exception", BitcoinGUI::tr("A fatal error occurred. Coinworkscoin can no longer continue safely and will quit.") + QString("\n\n") + QString::fromStdString(strMiscWarning));
     exit(1);
 }
 
@@ -137,12 +137,12 @@ int main(int argc, char *argv[])
     // Install global event filter that makes sure that long tooltips can be word-wrapped
     app.installEventFilter(new GUIUtil::ToolTipToRichTextFilter(TOOLTIP_WRAP_THRESHOLD, &app));
 
-    // ... then coinlabcoin.conf:
+    // ... then coinworkscoin.conf:
     if (!boost::filesystem::is_directory(GetDataDir(false)))
     {
         // This message can not be translated, as translation is not initialized yet
-        // (which not yet possible because lang=XX can be overridden in coinlabcoin.conf in the data directory)
-        QMessageBox::critical(0, "Coinlabcoin",
+        // (which not yet possible because lang=XX can be overridden in coinworkscoin.conf in the data directory)
+        QMessageBox::critical(0, "Coinworkscoin",
                               QString("Error: Specified data directory \"%1\" does not exist.").arg(QString::fromStdString(mapArgs["-datadir"])));
         return 1;
     }
@@ -150,12 +150,12 @@ int main(int argc, char *argv[])
 
     // Application identification (must be set before OptionsModel is initialized,
     // as it is used to locate QSettings)
-    QApplication::setOrganizationName("Coinlabcoin");
-    QApplication::setOrganizationDomain("coinlabcoin.org");
+    QApplication::setOrganizationName("Coinworkscoin");
+    QApplication::setOrganizationDomain("coinworkscoin.org");
     if(GetBoolArg("-testnet")) // Separate UI settings for testnet
-        QApplication::setApplicationName("Coinlabcoin-Qt-testnet");
+        QApplication::setApplicationName("Coinworkscoin-Qt-testnet");
     else
-        QApplication::setApplicationName("Coinlabcoin-Qt");
+        QApplication::setApplicationName("Coinworkscoin-Qt");
 
     // ... then GUI settings:
     OptionsModel optionsModel;
@@ -264,7 +264,7 @@ int main(int argc, char *argv[])
                 }
 
                 // Now that initialization/startup is done, process any command-line
-                // coinlabcoin: URIs
+                // coinworkscoin: URIs
                 QObject::connect(paymentServer, SIGNAL(receivedURI(QString)), &window, SLOT(handleURI(QString)));
                 QTimer::singleShot(100, paymentServer, SLOT(uiReady()));
 
@@ -275,7 +275,7 @@ int main(int argc, char *argv[])
                 window.removeAllWallets();
                 guiref = 0;
             }
-            // Shutdown the core and its threads, but don't exit Coinlabcoin-Qt here
+            // Shutdown the core and its threads, but don't exit Coinworkscoin-Qt here
             threadGroup.interrupt_all();
             threadGroup.join_all();
             Shutdown();

@@ -108,7 +108,7 @@ OBJS= \
     obj/skein.o
 
 
-all: coinlabcoind.exe
+all: coinworkscoind.exe
 
 test check: test_coinlabcoin.exe FORCE
 	test_coinlabcoin.exe
@@ -128,7 +128,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 
-coinlabcoind.exe: $(OBJS:obj/%=obj/%)
+coinworkscoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -140,7 +140,7 @@ test_coinlabcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 	$(CXX) $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ -lboost_unit_test_framework$(BOOST_SUFFIX) $(LIBS)
 
 clean:
-	rm -f coinlabcoind.exe test_coinlabcoin.exe
+	rm -f coinworkscoind.exe test_coinlabcoin.exe
 	rm -f obj/*
 	rm -f obj-test/*
 	cd leveldb && $(MAKE) TARGET_OS=NATIVE_WINDOWS clean && cd ..

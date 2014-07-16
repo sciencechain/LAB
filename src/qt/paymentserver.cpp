@@ -23,7 +23,7 @@
 using namespace boost;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("coinlabcoin:");
+const QString BITCOIN_IPC_PREFIX("coinworkscoin:");
 
 //
 // Create a name that is unique for:
@@ -32,7 +32,7 @@ const QString BITCOIN_IPC_PREFIX("coinlabcoin:");
 //
 static QString ipcServerName()
 {
-    QString name("CoinlabcoinQt");
+    QString name("CoinworkscoinQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -93,7 +93,7 @@ bool PaymentServer::ipcSendCommandLine()
 
 PaymentServer::PaymentServer(QApplication* parent) : QObject(parent), saveURIs(true)
 {
-    // Install global event filter to catch QFileOpenEvents on the mac (sent when you click coinlabcoin: links)
+    // Install global event filter to catch QFileOpenEvents on the mac (sent when you click coinworkscoin: links)
     parent->installEventFilter(this);
 
     QString name = ipcServerName();
@@ -104,14 +104,14 @@ PaymentServer::PaymentServer(QApplication* parent) : QObject(parent), saveURIs(t
     uriServer = new QLocalServer(this);
 
     if (!uriServer->listen(name))
-        qDebug() << tr("Cannot start coinlabcoin: click-to-pay handler");
+        qDebug() << tr("Cannot start coinworkscoin: click-to-pay handler");
     else
         connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
 }
 
 bool PaymentServer::eventFilter(QObject *object, QEvent *event)
 {
-    // clicking on coinlabcoin: URLs creates FileOpen events on the Mac:
+    // clicking on coinworkscoin: URLs creates FileOpen events on the Mac:
     if (event->type() == QEvent::FileOpen)
     {
         QFileOpenEvent* fileEvent = static_cast<QFileOpenEvent*>(event);

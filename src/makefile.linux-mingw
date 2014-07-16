@@ -99,7 +99,7 @@ OBJS= \
     obj/keccak.o\
     obj/skein.o
 
-all: coinlabcoind.exe
+all: coinworkscoind.exe
 
 DEFS += -I"$(CURDIR)/leveldb/include"
 DEFS += -I"$(CURDIR)/leveldb/helpers"
@@ -117,7 +117,7 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(xCXXFLAGS) -fpermissive -o $@ $<
 
-coinlabcoind.exe: $(OBJS:obj/%=obj/%)
+coinworkscoind.exe: $(OBJS:obj/%=obj/%)
 	$(CXX) $(xCXXFLAGS) $(xLDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 TESTOBJS := $(patsubst test/%.cpp,obj-test/%.o,$(wildcard test/*.cpp))
@@ -131,7 +131,7 @@ test_coinlabcoin.exe: $(TESTOBJS) $(filter-out obj/init.o,$(OBJS:obj/%=obj/%))
 
 clean:
 	-rm -f obj/*.o
-	-rm -f coinlabcoind.exe
+	-rm -f coinworkscoind.exe
 	-rm -f obj-test/*.o
 	-rm -f test_coinlabcoin.exe
 	-rm -f obj/build.h

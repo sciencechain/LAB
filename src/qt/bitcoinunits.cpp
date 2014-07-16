@@ -45,7 +45,7 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case QRK: return QString("Coinlabcoins");
+    case QRK: return QString("Coinworkscoins");
     case cQRK: return QString("centiLAB (1 / 100)");
     case mQRK: return QString("milliLAB (1 / 1,000)");
     default: return QString("???");
