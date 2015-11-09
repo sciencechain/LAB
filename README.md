@@ -1,101 +1,11 @@
-Sciencechain Core integration/staging tree
-===================================
+##Sciencechain [LAB]
 
-http://www.qrk.cc
+This coin was originally released by Coinworksdotinfo as "Coinlabcoin" and then "Coinworkscoin." It is a CPU based 11-hash cryptographic blockchain token based on Bitcoin and Quark. 
 
-Copyright (c) 2009-2015 Bitcoin Core Developers
-Copyright (c) 2013-2015 Sciencechain Core Developers
+It was fairly launched, had zero premine, and a rapid distribution to 1,000,000 coins with ongoing proof of work at one coin per block for ever.
 
-What is Sciencechain?
---------------
+This coin was abandoned when Coinworks went offline, but Cryptsy and Bittrex had listed it.
 
-Sciencechain is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. Sciencechain uses peer-to-peer technology to operate
-with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Sciencechain Core is the name of open source
-software which enables the use of this currency.
+In the spirit of maintaining this technically sound and enticingly valuable token alive, I've decided to rebrand and update it. The wallet has been updated to Core level code, based on Quark. 100% compatible with the original chain, no swapouts required and already listed on a prominent exchange.
 
-For more information, as well as an immediately useable, binary version of
-the Sciencechain Core software, see http://www.qrk.cc/
-
-License
--------
-
-Sciencechain Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see http://opensource.org/licenses/MIT.
-
-Development process
--------------------
-
-Developers work in their own trees, then submit pull requests when they think
-their feature or bug fix is ready.
-
-If it is a simple/trivial/non-controversial change, then one of the Sciencechain
-development team members simply pulls it.
-
-If it is a *more complicated or potentially controversial* change, then the patch
-submitter will be asked to start a discussion (if they haven't already) on the
-[mailing list](http://sourceforge.net/mailarchive/forum.php?forum_name=bitcoin-development).
-
-The patch will be accepted if there is broad consensus that it is a good thing.
-Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see [doc/coding.md](doc/coding.md)) or are
-controversial.
-
-The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Sciencechain.
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test. Please be patient and help out, and
-remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write unit tests for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run (assuming they weren't disabled in configure) with: `make check`
-
-### Manual Quality Assurance (QA) Testing
-
-Large changes should have a test plan, and should be tested by somebody other
-than the developer who wrote the code.
-See https://github.com/bitcoin/QA/ for how to create a test plan.
-
-Development tips and tricks
----------------------------
-
-**compiling for debugging**
-
-Run configure with the --enable-debug option, then make. Or run configure with
-CXXFLAGS="-g -ggdb -O0" or whatever debug flags you need.
-
-**debug.log**
-
-If the code is behaving strangely, take a look in the debug.log file in the data directory;
-error and debugging message are written there.
-
-The -debug=... command-line option controls debugging; running with just -debug will turn
-on all categories (and give you a very large debug.log file).
-
-The Qt code routes qDebug() output to debug.log under category "qt": run with -debug=qt
-to see it.
-
-**testnet and regtest modes**
-
-Run with the -testnet option to run with "play bitcoins" on the test network, if you
-are testing multi-machine code that needs to operate across the internet.
-
-If you are testing something that can run on one machine, run with the -regtest option.
-In regression test mode blocks can be created on-demand; see qa/rpc-tests/ for tests
-that run in -regest mode.
-
-**DEBUG_LOCKORDER**
-
-Sciencechain Core is a multithreaded application, and deadlocks or other multithreading bugs
-can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
-CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of what locks
-are held, and adds warning to the debug.log file if inconsistencies are detected.
+Enjoy the rebirth of LAB: Sciencechain.
