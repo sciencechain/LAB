@@ -69,8 +69,12 @@ public:
         assert(hashGenesisBlock == hashMainGenesisBlock);
         assert(genesis.hashMerkleRoot == uint256("0x3aa02df512f1a9dd89f81956951947269404a930315453f0dd8dab996eda1f1a"));
 
-        vSeeds.push_back(CDNSSeedData("sciencechain.io", "sciencechain.io"));
-        vSeeds.push_back(CDNSSeedData("collectorcoin.org", "collectorcoin.org"));
+        vSeeds.push_back(CDNSSeedData("seed1.sciencechain.org", "seed1.sciencechain.org"));
+        vSeeds.push_back(CDNSSeedData("seed2.sciencechain.org", "seed2.sciencechain.org"));
+        vSeeds.push_back(CDNSSeedData("seed3.sciencechain.org", "seed3.sciencechain.org"));
+        vSeeds.push_back(CDNSSeedData("seed4.sciencechain.org", "seed4.sciencechain.org"));
+        vSeeds.push_back(CDNSSeedData("seed5.sciencechain.org", "seed5.sciencechain.org"));
+        
 		
         base58Prefixes[PUBKEY_ADDRESS] = list_of(83);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(9);
