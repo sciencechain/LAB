@@ -112,7 +112,7 @@ static CMainParams mainParams;
 
 
 //
-// Testnet (v3)
+// Antiparticle - Sciencechain's equal and reactionary opposite. Thanks to Ernst and Richard for their interpretation.
 //
 class CTestNetParams : public CMainParams {
 public:
@@ -125,20 +125,22 @@ public:
         pchMessageStart[2] = 0x39;
         pchMessageStart[3] = 0xf7;
         vAlertPubKey = ParseHex("04218bc3f08237baa077cb1b0e5a81695fcf3f5b4e220b4ad274d05a31d762dd4e191efa7b736a24a32d6fd9ac1b5ebb2787c70e9dfad0016a8b32f7bd2520dbd5");
-        nDefaultPort = 21973;
-        nRPCPort = 18372;
-        strDataDir = "testnet3";
+        nDefaultPort = 11976;
+        nRPCPort = 48374;
+        strDataDir = "antiparticle";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1373481000;
-        genesis.nNonce = 905523645;
+        genesis.nTime = 1462124323;
+        genesis.nNonce = 1273233;
         hashGenesisBlock = genesis.GetHash();
-        //assert(hashGenesisBlock == uint256("0x00000e5e37c42d6b67d0934399adfb0fa48b59138abb1a8842c88f4ca3d4ec96"));
+        
+        assert(hashGenesisBlock == uint256("0x00000769ef884528e8d7830ee64cc0cbae1c2ee281c4faa3ddeb2d4b331ccfdd"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
+        vSeeds.push_back(CDNSSeedData("seed5.sciencechain.org", "seed5.sciencechain.org"));
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(119);
+        base58Prefixes[PUBKEY_ADDRESS] = list_of(142);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(199);
         base58Prefixes[SECRET_KEY]     = list_of(247);
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x35)(0x87)(0xCF);
@@ -161,13 +163,14 @@ public:
         pchMessageStart[3] = 0xda;
         nSubsidyHalvingInterval = 150;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 1);
-        genesis.nTime = 1296688602;
+        genesis.nTime = 1;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 2;
+        genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
-        nDefaultPort = 18444;
-        strDataDir = "regtest";
-        //assert(hashGenesisBlock == uint256("0x9cc7038a62931521a044f22acd7d9cf3e6f1f35d4e877ffe106b39e946f8000e"));
+        nDefaultPort = 11977;
+        strDataDir = "regression";
+    
+        assert(hashGenesisBlock == uint256("0x4c8bf698b2f4dc3de71dd3bae33ec9db0502dc68984cb0495168ebff37375e38"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
